@@ -6,5 +6,4 @@ print('A hipotenusa do trinagulo vale {}'.format(h))
 
 
 
-
  

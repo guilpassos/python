@@ -1,9 +1,9 @@
 import math
 co = float(input('Qual o cateto oposto: '))
 ca = float(input('Qual o cateto adjacente: '))
-h = math.hypot(co, ca)
-print('A hipotenusa do trinagulo vale {}'.format(h))
-
+h1 = co ** 2 + ca ** 2
+h2 = sqrt(h1)
+print('A hipotenusa do trinagulo vale {}'.format(h2))
 
 
 
