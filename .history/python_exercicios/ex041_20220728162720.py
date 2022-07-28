@@ -5,6 +5,7 @@ atual = date.today().year
 idade = atual - ano
 print('O atleta {}, nasceu em {} e tem {} anos.'.format(nome, ano, idade))
 if idade <= 9:
+    print('O atleta {}, nasceu em {} e tem {} anos.'.format(nome, ano, idade))
     print('CATEGORIA MIRIM')
 elif idade > 9 and idade <= 14:
     print('CATEGORIA INFANTIL')
@@ -13,6 +14,7 @@ elif idade > 14 and idade <= 19:
 elif idade > 19 and idade <= 25:
     print('CATEGORIA SENIOR')
 elif idade > 25:
+    print('O atleta {}, nasceu em {} e tem {} anos.'.format(nome, ano, idade))
     print('CATEGORIA MASTER')
 
 
