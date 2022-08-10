@@ -13,6 +13,10 @@ while True:
     if cont == 1 or preco < menor:
         menor = preco
         barato = produto
+    else:
+        if preco < menor:
+            menor = preco
+            barato = produto
     resp = ' '
     while resp not in 'SN':
         resp = str(input('Deseja continuar? [S/N] ')).strip()[0].upper()
