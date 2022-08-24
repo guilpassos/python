@@ -24,9 +24,7 @@ print(f'Os dados foram {princ}')
 print(f'Ao todo voce cadastrou {len(princ)} pessoas.')
 print(f'O maior peso foi de {maior} Kg. Peso de ', end='')
 for p in princ:
-    if p[1] == maior:
-        print(f'[{p[0]}] ', end='')
-print()
+    
 print(f'O menor peso foi de {menor} Kg.')
 
 
