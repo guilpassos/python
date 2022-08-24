@@ -11,9 +11,11 @@ while True:
             maior = temp[1]
         if temp[1] < menor:
             menor = temp[1]
+
     princ.append(temp[:])
     temp.clear()
     resp = str(input('Quer continuar? [S/N] '))
+
     if resp in 'nN':
         break
 print('=' * 30)

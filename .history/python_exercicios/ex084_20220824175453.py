@@ -11,11 +11,14 @@ while True:
             maior = temp[1]
         if temp[1] < menor:
             menor = temp[1]
+
     princ.append(temp[:])
     temp.clear()
     resp = str(input('Quer continuar? [S/N] '))
+
     if resp in 'nN':
         break
+
 print('=' * 30)
 print(f'Os dados foram {princ}')
 print(f'Ao todo voce cadastrou {len(princ)} pessoas.')
@@ -27,8 +30,7 @@ print()
 print(f'O menor peso foi de {menor} Kg. Peso de ', end='')
 for p in princ:
     if p[1] == menor:
-        print(f'[{p[0]}] ', end='')
-print()
+        print(f'[{p[0]}] ', end)
 
 
 
