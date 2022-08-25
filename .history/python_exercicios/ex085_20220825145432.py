@@ -7,10 +7,18 @@ for c in range(1, 8):
     else:
         num[1].append(valor)
 print('-=' * 30)
-num[0].sort()
-num[1].sort()
+num
 print(f'Os valores pares digitados: {num[0]}')
 print(f'Os valores impares digitados: {num[1]}')
+
+
+
+
+
+
+
+
+
 
 
 
