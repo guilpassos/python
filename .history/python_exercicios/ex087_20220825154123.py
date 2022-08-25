@@ -12,7 +12,8 @@ for l in range(0, 3):
             spar += matriz[l][c]
     print()
 for l in range(0, 3):
-    scol += matriz[l][2]
+
+
     
 print('-=' * 30)
 print(f'A soma de todos os valores pares da matriz é igual a: {spar}')
