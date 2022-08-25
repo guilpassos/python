@@ -1,5 +1,4 @@
 from random import randint
-from time import sleep
 lista = []
 jogos = []
 print('-' * 30)
@@ -20,11 +19,21 @@ while tot <= quant:
     jogos.append(lista[:])
     lista.clear()
     tot += 1
-print('-=' * 3, f'SORTEANDO {quant} JOGOS', '-=' * 3)
-for i, l in enumerate(jogos):
-    print(f'Jogo {i+1}: {l}')
-    sleep(1)
-print('-=' * 5, '< BOA SORTE! >', '-=' * 5)
+
+pr
+
+print(f'Os numeros sorteados foram: {jogos}')
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Exercício Python 088: Faça um programa que ajude um jogador da MEGA SENA

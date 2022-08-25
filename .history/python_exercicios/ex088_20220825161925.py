@@ -23,8 +23,17 @@ while tot <= quant:
 print('-=' * 3, f'SORTEANDO {quant} JOGOS', '-=' * 3)
 for i, l in enumerate(jogos):
     print(f'Jogo {i+1}: {l}')
-    sleep(1)
-print('-=' * 5, '< BOA SORTE! >', '-=' * 5)
+    sleep
+
+
+
+
+
+
+
+
+
+
 
 
 # Exercício Python 088: Faça um programa que ajude um jogador da MEGA SENA
