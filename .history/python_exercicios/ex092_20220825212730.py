@@ -1,4 +1,5 @@
 from datetime import datetime
+from queue import PriorityQueue
 dados = dict()
 dados['nome'] = str(input('Nome: '))
 nasc = int(input('Ano de nascimento: '))
@@ -9,8 +10,14 @@ if dados['ctps'] != 0:
     dados['salario'] = float(input('Salário: R$'))
     dados['aposentadoria'] = dados['idade'] + ((dados['contratacao'] + 35) - datetime.now().year)
 print('-=' * 30)
+print(dados)
 for k, v in dados.items():
     print(f' - {k}: {v}')
+
+
+
+
+
 
 
 #Exercício Python 092: Crie um programa que leia nome, ano de nascimento

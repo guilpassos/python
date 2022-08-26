@@ -10,7 +10,12 @@ if dados['ctps'] != 0:
     dados['aposentadoria'] = dados['idade'] + ((dados['contratacao'] + 35) - datetime.now().year)
 print('-=' * 30)
 for k, v in dados.items():
-    print(f' - {k}: {v}')
+    print(f' - {k}: {v}.')
+
+
+
+
+
 
 
 #Exercício Python 092: Crie um programa que leia nome, ano de nascimento

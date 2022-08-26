@@ -13,6 +13,11 @@ for k, v in dados.items():
     print(f' - {k}: {v}')
 
 
+
+
+
+
+
 #Exercício Python 092: Crie um programa que leia nome, ano de nascimento
 # e carteira de trabalho e cadastre-o (com idade) em um dicionário. 
 # Se por acaso a CTPS for diferente de ZERO, o dicionário receberá
