@@ -8,10 +8,10 @@ jogador['gols'] = partidas[:]
 jogador['total'] = sum(partidas)
 print('=-' * 30)
 print(jogador)
-print('=-' * 30)
+print('=' * 30)
 for k, v in jogador.items():
     print(f'O campo {k} tem o valor {v}.')
-print('=-' * 30)
+print('=' * 30)
 
 
 
