@@ -13,9 +13,20 @@ for k, v in jogador.items():
     print(f'O campo {k} tem o valor {v}.')
 print('=-' * 30)
 print(f'O jogador {jogador["nome"]} jogou {len(jogador["gols"])} partidas.')
-for i, v in enumerate(jogador['gols']):
-    print(f'   => Na partida {i} fez {v} gols.')
-print(f'Foi um total de {jogador["total"]} gols.')
+for i, v in enumerate():
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Exercício Python 093: Crie um programa que gerencie o aproveitamento

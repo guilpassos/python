@@ -15,7 +15,20 @@ print('=-' * 30)
 print(f'O jogador {jogador["nome"]} jogou {len(jogador["gols"])} partidas.')
 for i, v in enumerate(jogador['gols']):
     print(f'   => Na partida {i} fez {v} gols.')
-print(f'Foi um total de {jogador["total"]} gols.')
+print(f'Foi um total de {jogador["gols"]} gols.')
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Exercício Python 093: Crie um programa que gerencie o aproveitamento
