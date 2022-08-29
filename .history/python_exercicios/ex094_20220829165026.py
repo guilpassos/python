@@ -1,3 +1,6 @@
+from re import S
+
+
 galera = list()
 pessoa = dict()
 while True:
@@ -9,13 +12,13 @@ while True:
             break
         print('ERRO! Por favor digite apenas M ou F:')
     pessoa['idade'] = int(input('idade: '))
-    galera.append(pessoa.copy())
+    galera.append(pessoa.copy)
     while True:
         resp = str(input('Quer continuar? [S/N] ')).upper()[0]
         if resp in 'SN':
             break
         print('ERRO! Responda apenas S ou N: ')
-    if resp == 'N':
+    if resp == 'S':
         break
 
 print('-=' * 30)

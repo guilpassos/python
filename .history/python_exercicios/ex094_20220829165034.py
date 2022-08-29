@@ -1,3 +1,6 @@
+from re import S
+
+
 galera = list()
 pessoa = dict()
 while True:
@@ -15,7 +18,7 @@ while True:
         if resp in 'SN':
             break
         print('ERRO! Responda apenas S ou N: ')
-    if resp == 'N':
+    if resp == 'S':
         break
 
 print('-=' * 30)
