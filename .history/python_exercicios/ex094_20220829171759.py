@@ -36,8 +36,12 @@ for p in galera:
         for k, v in p.items():
             print(f'{k} = {v}; ', end='')
         print()
-print('-=' * 30)
+print(-=)
 print('<<< ENCERRADO >>>')
+
+
+
+
 
 
 #Exercício Python 094: Crie um programa que leia nome, sexo e idade de várias pessoas,

@@ -34,10 +34,11 @@ for p in galera:
     if p['idade'] >= media:
         print('     ')
         for k, v in p.items():
-            print(f'{k} = {v}; ', end='')
-        print()
-print('-=' * 30)
-print('<<< ENCERRADO >>>')
+            print(f'{k: }')
+
+
+
+
 
 
 #Exercício Python 094: Crie um programa que leia nome, sexo e idade de várias pessoas,
