@@ -9,9 +9,12 @@ def voto(ano):
     else:
         return f'Com {idade} anos: VOTO OBRIGATÓRIO.'
 
-#Programa principal
-nasc = int(input('Em que ano voce nasceu? '))
-print(voto(nasc))
+PRIN
+
+
+
+
+
 
 
 
