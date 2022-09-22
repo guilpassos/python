@@ -1,2 +1,2 @@
 # python
- Aprendendo Python
+ Aprendendo Python | Criando e executando mini projetos no Pycharm
